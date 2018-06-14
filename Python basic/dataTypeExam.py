@@ -16,3 +16,5 @@ print(sum_v.imag)
 
 print(mux_v.real)
 print(mux_v.imag)
+
+print(v-u)
