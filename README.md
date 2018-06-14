@@ -34,7 +34,7 @@ How to Setting github for Vscode
        2. move to the parent directory for cloning from git 
        3. run 'virtualenv <git folder>
        3. run 'virtualenv <git folder> --system-site-packages'
-       4. run 'source venv/bin/activate'
+       4. run 'source <git folder>/bin/activate'
        5. run 'pip install <package>'
 
 4) useful application for github
