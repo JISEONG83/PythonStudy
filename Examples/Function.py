@@ -39,6 +39,7 @@ f3(age=10, name="John", score=80)
 
 # dynamic parameters
 def f4(*numbers):
+    print(type(numbers))
     total = 0
     for n in numbers:
         total += n
@@ -60,5 +61,6 @@ def f5(*numbers):
 
 count, sum, = f5(1,5,2,6)
 m = (1,2,3)
+print('%d %d'%(count, sum))
 print(count, sum)
 

@@ -8,7 +8,7 @@ def getHtml(url):
     print(url, len(resp.text), ' chars')
 
 t1 = threading.Thread(target=getHtml, args=('https://google.com',))
-#t1.start()
+t1.start()
 
 print('## End ##')
 
@@ -25,7 +25,7 @@ class HtmlGetter(threading.Thread):
         print(self.url, len(resp.text), ' chars')
 
 t = HtmlGetter('http://google.com')
-#t.start()
+t.start()
 
 # demon example
 def getHtml2(url):
