@@ -57,4 +57,4 @@ def Sum2 (*VarParams ):
         total = total + i
     return total
 
-print(Sum(step = 2, ListParams = [1,2,3,4,5]))
+print(Sum(step=2 ,ListParams = [1,2,3,4,5]))

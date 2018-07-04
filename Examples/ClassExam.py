@@ -5,18 +5,24 @@ class Rectangle:
     count = 0  # 클래스 변수
  
     # 초기자(initializer)
-    def __init__(self, width, height):
+    def __init__(self, width=1, height=1):
         # self.* : 인스턴스변수
         self.width = width
         self.height = height
         Rectangle.count += 1
         print('Called function(__init__)')
 
-    def __call__(self):
+    def __call__(self, width, height):
+        self.width = width
+        self.height = height
         print('Called function(__call__)')
 
     def __add__(self, other):
         obj = Rectangle(self.width + other.width, self.height + other.height)
+        return obj
+
+    def __sub__(self, other):
+        obj = Rectangle(self.width - other.width, self.height - other.height)
         return obj
  
     # 메서드
@@ -37,7 +43,8 @@ class Rectangle:
 
 
 # 객체 생성
-r = Rectangle(2, 3)
+r = Rectangle()# __init__
+r(2,5) # __call__
  
 # 메서드 호출
 area = r.calcArea()
@@ -61,6 +68,6 @@ rect1.printCount()  # 2
 print(Rectangle.count) #3
 
 rect1+rect2
-rect1+rect2
+rect1-rect2
 print("width = ", rect1.width)
 print(Rectangle.count)
