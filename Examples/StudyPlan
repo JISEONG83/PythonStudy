@@ -13,4 +13,15 @@
       URL :  https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap -- Paper RoadMap
              https://ratsgo.github.io/blog/categories/ -- ratsgo blog(머신러닝, 딥러닝 관련 개인 블로그 )
 
+	Jongwoo's opinion
+	 - Roadmap 
+	  	- survey paper[1] 읽어보기
+	  	- Model(2.1) 부분 공부하기
+	  	- application : object detection/image caption, Robotics(개인적)
+	 - ratsgo blog
+	  	- Natural Language Processing list 따라서 구현해보기
+		- Machine Learning --> Deep Learning 순으로 공부하기
+		- statistics 공부하기
+	 - Tensorflow Tutorial
+	 	- 해당 tutorial 을 빠르게 따라해본 후 위 두가지를 해도 좋을 것 같고, 위 두가지를 해보면서 tutorial 을 참고하는 것도 좋을 것 같음
 
