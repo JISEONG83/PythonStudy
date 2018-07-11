@@ -12,6 +12,7 @@
 3주차 : (Python GUI), 아래 url 보고 관심있는 분야 선정(각자/공동), TensorFlow Tutorial
       URL :  https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap -- Paper RoadMap
              https://ratsgo.github.io/blog/categories/ -- ratsgo blog(머신러닝, 딥러닝 관련 개인 블로그 )
+             https://msropendata.com/ -- microsoft open data
 
 	Jongwoo's opinion
 	 - Roadmap 
@@ -25,3 +26,14 @@
 	 - Tensorflow Tutorial
 	 	- 해당 tutorial 을 빠르게 따라해본 후 위 두가지를 해도 좋을 것 같고, 위 두가지를 해보면서 tutorial 을 참고하는 것도 좋을 것 같음
 
+      Jiseong's opinion
+      - Model about Machine Learning and Deep Learning
+            - Machine Learning : Ratsgo Blog의 기본 machine learning -> 결과물 : 각 기법에 대한 결과 코드
+            - Road map (2.1 model) -> 모델별 결과코드
+            - Tensorflow tutorial -> tutorial 예제(mnist)
+
+      - Application
+            - 'microsoft open data'를 바탕으로 Image and text detection을 구현
+                  - machine learning 
+                  - Deep learning.
+            - 
